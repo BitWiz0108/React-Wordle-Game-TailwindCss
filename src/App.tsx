@@ -54,6 +54,8 @@ import {
   unicodeLength,
 } from './lib/words'
 
+console.log('123123123', Math.floor(Math.random() * WIN_MESSAGES.length))
+
 function App() {
   const isLatestGame = getIsLatestGame()
   const gameDate = getGameDate()

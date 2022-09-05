@@ -4,5 +4,7 @@ import { Alert } from './Alert'
 export const AlertContainer = () => {
   const { message, status, isVisible } = useAlert()
 
+  console.log("!@!@#!@#!@#",message, "#@@#$%@#$%",status, "%$%$$%$%", isVisible);
+
   return <Alert isOpen={isVisible} message={message || ''} variant={status} />
 }
